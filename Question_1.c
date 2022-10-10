@@ -2,12 +2,12 @@
 int n,rev=0,rem,c;
 void main()
 {
-    int x,a,b,c,d;
+    int x,a,b,c,d,e;
     printf("Enter the Number of digits:");
     scanf("%d",&x);
-    if(x>4)
+    if(x>5)
     {
-       printf("Upto 4 digit number is valid");
+       printf("Upto 5 digit number is valid");
     }
     else
     {
@@ -16,14 +16,14 @@ void main()
         printf("\nThe number is:%d\n",n);
     }
     //printf(" Reversal of the No:");
-    void fourdigi(int a,int b,int c,int d);
-    fourdigi(a,b,c,d);
+    void fivedigi(int a,int b,int c,int d,int e);
+    fivedigi(a,b,c,d,e);
     //revno(rev);
   
     //printf("\nEnter new rev:%d",n);
     
 }
-void fourdigi(int a,int b,int c,int d)
+void fivedigi(int a,int b,int c,int d,int e)
 {
 if(n>=0)
 {
@@ -114,6 +114,26 @@ if(n>=0)
        else if(d==0)
             printf("  Zero");
         
-        
+      e=(n/1000)%10;
+            if(e==1)
+            printf("  one");
+        else if(e==2) 
+            printf("  two");
+        else if(e==3)
+            printf("  three");
+        else if(e==4)
+            printf("  four");
+        else if(e==5)
+            printf("  five");
+        else if(e==6)
+            printf("  six");
+        else if(e==7)
+            printf("  Seven");
+        else if(e==8)
+            printf("  Eight");
+        else if(e==9)
+            printf("  Nine");
+       else if(e==0)
+            printf("  Zero");
 }
 }
