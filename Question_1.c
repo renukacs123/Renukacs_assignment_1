@@ -1,5 +1,5 @@
 #include<stdio.h>
-int n,rev=0,rem,c;
+int n,c;
 void main()
 {
     int x,a,b,c,d,e;
