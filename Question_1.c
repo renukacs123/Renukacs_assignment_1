@@ -15,12 +15,9 @@ void main()
         scanf("%d",&n);
         printf("\nThe number is:%d\n",n);
     }
-    //printf(" Reversal of the No:");
+    
     void fivedigi(int a,int b,int c,int d,int e);
     fivedigi(a,b,c,d,e);
-    //revno(rev);
-  
-    //printf("\nEnter new rev:%d",n);
     
 }
 void fivedigi(int a,int b,int c,int d,int e)
